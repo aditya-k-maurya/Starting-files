@@ -25,16 +25,6 @@
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
-
-  /*========== Font weight ==========*/
-  --font-regular: 400;
-  --font-medium: 500;
-  --font-semi-bold: 600;
-  --font-bold: 700;
-
-  /*========== z index ==========*/
-  --z-tooltip: 10;
-  --z-fixed: 100;
 }
 
 /*========== Responsive typography ==========*/
@@ -82,9 +72,10 @@ a {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
-.container {
-  max-width: 1120px;
-  margin-inline: 1.5rem;
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
 }
 
 .grid {
@@ -159,4 +150,9 @@ a {
 
 .secondary__btn a:hover {
   color: inherit;
+}
+.flex{
+  display:flex;
+  align-items:center;
+  gap:1.5rem;
 }
